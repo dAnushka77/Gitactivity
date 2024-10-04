@@ -24,6 +24,8 @@ This command pulls the remote changes and applies your local changes on top of t
    git push origin main
 If there are any conflicts during the git pull step, Git will notify you, and you'll need to resolve them manually before proceeding with the push.
 
+--- Invite Rupak as collaborator. ---
+
 7) Cloning the repo in Rupak's local -
    git clone https://github.com/username/repository.git
    cd repo_name
@@ -32,5 +34,15 @@ If there are any conflicts during the git pull step, Git will notify you, and yo
    git checkout -b branch_name
    (git checkout -b rupak)
 
-9)  
+9)  Switch to the rupak branch (if he isn't already on it):
+   git checkout rupak
+
+10) Add the changes to the staging area:
+    git add .
+
+11) Commit the changes with a descriptive message:
+   git commit -m "Describe the changes made"
+
+12) Push the changes to the remote rupak branch:
+   git push origin rupak
 
