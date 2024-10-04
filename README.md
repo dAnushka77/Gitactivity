@@ -46,3 +46,14 @@ If there are any conflicts during the git pull step, Git will notify you, and yo
 12) Push the changes to the remote rupak branch:
    git push origin rupak
 
+13) Rupak clicked on compare and pull requests and sent it to me. I approved the pull request and checked the code changes.
+
+14) I clicked on merge pull request.
+
+15) Rupak can now see approved merge in his github.
+
+16) Now I want to use this code so I need to pull it to my local.
+    git checkout main
+    git pull origin main
+
+    
