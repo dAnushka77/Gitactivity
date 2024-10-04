@@ -6,7 +6,7 @@ class Animal:
     def sound(self):
         return f"{self.name} makes a sound"
 
-# Derived class (Child) inheriting from Animal
+# Derived class (Child) inheriting from Anima
 class Dog(Animal):
     def __init__(self, name, breed):
         super().__init__(name)  # Call the parent class's constructor
