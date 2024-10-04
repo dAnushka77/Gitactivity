@@ -22,8 +22,8 @@ class Cat(Animal):
         return f"{self.name} meows"
 
 # Creating objects of the derived classes
-dog = Dog("Buddy", "Golden Retriever")
-cat = Cat("Whiskers")
+dog = Dog("coco", "Lab")
+cat = Cat("maumau")
 
 # Accessing methods from the derived classes
 print(dog.sound())  # Output: Buddy barks
